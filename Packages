@@ -1,0 +1,43 @@
+Package: andryemu
+Version: 0.1beta0
+Architecture: amd64
+Maintainer: Kolyadual <kolyadual.man@gmail.com>
+Depends: libc6, libpulse-dev, qtbase5-dev, qtdeclarative5-dev, git, cmake, g++, make, libgl1-mesa-dev, libxcb-keysyms1-dev, libxcb-icccm4-dev, libx11-dev, libx11-xcb-dev, libxcb1-dev, libxcb-util0-dev, libxcb-ewmh-dev, libxcb-image0-dev, libxcb-randr0-dev, libxcb-render-util0-dev, libxcb-xinerama0-dev, libxcb-xfixes0-dev, libxcb-shape0-dev, unzip, curl, python3
+Filename: ./andryemu_0.1beta0_amd64.deb
+Size: 481033674
+MD5sum: 7cd0298295fcb2bcbf2fb70e3086c551
+SHA1: 57a73487fe27298fd29c82efa0e69c8ad4dffa8c
+SHA256: b2deea47c06799b36e9585e4d1841eefe2c6ec2912690257cbecf088d0da7bb5
+Section: utils
+Priority: optional
+Description: Andryemu is an Android emulator for Runget OS (Linux Runget).
+
+Package: appimagepool
+Version: 1.0
+Architecture: amd64
+Essential: no
+Maintainer: Kolyadual <kolyadual.man@gmail.com>
+Depends: libc6, python3
+Filename: ./Runget_AppStore.deb
+Size: 10658850
+MD5sum: 923a33344275a3a265656a88a17af944
+SHA1: d8f5d209346cb05adf0c6bb71a40b3d3d99f0b9b
+SHA256: b29579c3cf795f5e36e674127a26fcab28f6823dc20724106e733be1962f01f4
+Section: unknown
+Priority: optional
+Description: AppImage Pool is an app store for Runget or other systems
+
+Package: runget-wallpapers
+Version: 1.0
+Architecture: amd64
+Maintainer: Kirilldual
+Depends: curl, python3
+Filename: ./runget-wallpapers.deb
+Size: 79709316
+MD5sum: 761350889aaffdd6d3a6432df040b549
+SHA1: e3560e31229ad53cab18cd87b5e125113ae10db5
+SHA256: 957f9179dcc03318a83ea95f5c469378f5b2ac9c7bc32990f95e484d57c86f75
+Section: utils
+Priority: optional
+Description: Wallpapers for Runget OS
+
